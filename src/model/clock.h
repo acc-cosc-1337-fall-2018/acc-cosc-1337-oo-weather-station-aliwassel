@@ -10,7 +10,7 @@ public:
 		seconds = std::chrono::system_clock::now().time_since_epoch() /
 			std::chrono::seconds(1);
 	}
-	Clock(long long sec) : seconds(sec) {}
+	Clock(long long sec) : seconds(sec) {} // initilization.
 	int get_hours() const;
 	int get_minutes() const;
 	int get_seconds() const;

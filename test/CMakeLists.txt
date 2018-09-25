@@ -1,2 +1,2 @@
 add_subdirectory(model)
-add_executable (model_ main.cpp)
+add_executable(model_ main.cpp)
